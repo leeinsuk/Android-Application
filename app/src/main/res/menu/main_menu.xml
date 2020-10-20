@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="정렬">
+        <menu>
+            <group android:checkableBehavior="single"
+                android:id="@+id/menu_group">
+                <item android:title="사용자 선택"
+                    android:checked="true"
+                    android:id="@+id/menu_user"/>
+                <item android:title="중요도 높은순↑"
+                    android:id="@+id/menu_order_high"/>
+                <item android:title="중요도 낮은순↓"
+                    android:id="@+id/menu_order_low"/>
+            </group>
+        </menu>
+    </item>
+</menu>
